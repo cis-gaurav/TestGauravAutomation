@@ -61,7 +61,8 @@ public static WebDriver OpenBrowser()
 	public static void getData()
 	{
 		
-		File file= new File("D:\\Selinium Ecllipse\\MD\\src\\test\\java\\TestNgScripts\\marketdojo.properties");
+//		File file= new File("D:\\Selinium Ecllipse\\MD\\src\\test\\java\\TestNgScripts\\marketdojo.properties");
+		File file= new File("src/test/java/TestNgScripts/marketdojo.properties");
 		FileInputStream fileIn= null;
 		try {
 			fileIn = new FileInputStream(file);
