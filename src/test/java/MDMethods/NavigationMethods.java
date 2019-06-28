@@ -24,7 +24,8 @@ public static FileInputStream inputFile;
 
 public static WebDriver OpenBrowser()
 	{
-		System.setProperty("webdriver.chrome.driver","C:\\chromedriver\\chromedriver.exe");
+//		System.setProperty("webdriver.chrome.driver","C:\\chromedriver\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver (path)");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		return driver;
