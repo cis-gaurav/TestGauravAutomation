@@ -26,10 +26,14 @@ public static FileInputStream inputFile;
 public static WebDriver OpenBrowser()
 	{
 	
-	System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");    
-	ChromeOptions options = new ChromeOptions();
-	options.setExperimentalOption("useAutomationExtension", false);
-	WebDriver driver = new ChromeDriver(options);
+//	System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");    
+//	ChromeOptions options = new ChromeOptions();
+//	options.setExperimentalOption("useAutomationExtension", false);
+//	WebDriver driver = new ChromeDriver(options);
+	System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+	ChromeOptions chromeOptions = new ChromeOptions();
+	chromeOptions.addArguments("--headless");
+	WebDriver driver = new ChromeDriver(chromeOptions);
 //		System.setProperty("webdriver.chrome.driver","C:\\chromedriver\\chromedriver.exe");
 //		driver = new ChromeDriver();
 		driver.manage().window().maximize();
