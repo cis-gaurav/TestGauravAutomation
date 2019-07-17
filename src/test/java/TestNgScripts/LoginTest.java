@@ -17,7 +17,7 @@ public class LoginTest {
 	
 	
 	@BeforeClass
-	public void launchBrowser()
+	public void launchBrowser() throws InterruptedException
 	{
 		NavigationMethods.getData();
 		NavigationMethods.OpenBrowser();

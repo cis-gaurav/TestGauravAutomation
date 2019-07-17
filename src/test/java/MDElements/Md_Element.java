@@ -35,6 +35,7 @@ public class Md_Element  {
 	public static String qqDes="/html/body[contains(text(),'Details')]";
 	public static String qqPricechekbox = "//*[@id='app']/div/div/div/div/div/div/div/div/div/div/div/form/div[4]/div[1]/div/div[2]/div/label/span";
 	public static String qqGetquote= "//BUTTON[@class='btn btn-lg btn-primary m-t20 btn-sizebig'][text()='Get quotes!']";
+	public static String qqGetquote1= "//button[@type='submit']";
 	public static String qqdisGetquote="//*[@id='app']/div/div/div/div/div/div/div/div/div/div/div/form/div[7]/button";
 	public static String qqToasterr="(//DIV[text()='The deadline you have selected in the past. Please select a deadline date in the future.'])[1]";
 	public static String qqDrop="//div[@class='filepicker dropzone dz-clickable']";
@@ -110,6 +111,11 @@ public class Md_Element  {
 	
 	
 	
+	
+	public static String  qqAddPart="//input[@id='react-select-2-input']";
+	public static String  qqAddgroup="//button[@class='btn btn-primary btn-fontsmall modal-btn-open']";
+	public static String  qqSelectgroup="(//SPAN)[74]";
+	public static String qqSelectGroupDone="//BUTTON[@type='button'][text()='Done']";
 	
 
 	

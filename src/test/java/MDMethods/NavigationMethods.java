@@ -23,7 +23,7 @@ public static Properties prop;
 public static FileInputStream inputFile;
 	
 
-public static WebDriver OpenBrowser()
+public static WebDriver OpenBrowser() throws InterruptedException
 	{
 	
 	System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");    
@@ -31,11 +31,12 @@ public static WebDriver OpenBrowser()
     chromeOptions.addArguments("--headless");
     chromeOptions.addArguments("--no-sandbox");
     WebDriver driver = new ChromeDriver(chromeOptions);
-
-//	    System.setProperty("webdriver.chrome.driver","C:\\chromedriver\\chromedriver.exe");
-//		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		return driver;
+    Thread.sleep(3000);
+	
+//    System.setProperty("webdriver.chrome.driver","C:\\chromedriver\\chromedriver.exe");
+//    driver = new ChromeDriver();
+//    driver.manage().window().maximize();
+	return driver;
 	}
 	
 	public static void Openurlandlogin ()
@@ -133,6 +134,11 @@ public static WebDriver OpenBrowser()
 		public static void Scroll(){
 			JavascriptExecutor jse = (JavascriptExecutor)NavigationMethods.driver;
 			jse.executeScript("window.scrollBy(0,250)", "400"); 			
+		}
+		
+		
+		public static void BottomScroll(){
+			((JavascriptExecutor) NavigationMethods. driver).executeScript("window.scrollTo(0, document.body.scrollHeight)");
 		}
 		
 	    public static void QQCreate1lot () throws InterruptedException{
