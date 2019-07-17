@@ -26,7 +26,7 @@ public static FileInputStream inputFile;
 public static WebDriver OpenBrowser() throws InterruptedException
 	{
 	
-	System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");                                                             // FOR UBNTU DRIVER
+	System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");                                                         // FOR UBNTU DRIVER
     ChromeOptions chromeOptions = new ChromeOptions();
     chromeOptions.addArguments("--headless");
     chromeOptions.addArguments("--no-sandbox");
