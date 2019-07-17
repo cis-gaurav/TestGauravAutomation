@@ -19,14 +19,14 @@ public class LoginTest {
 	@BeforeClass
 	public void launchBrowser() throws InterruptedException
 	{
-		NavigationMethods.getData();
+//		NavigationMethods.getData();
 		NavigationMethods.OpenBrowser();
 	}
 	@BeforeMethod
 	public void openApplication()
 	{
-		 
-		NavigationMethods.driver.get(NavigationMethods.prop.getProperty("URL"));
+		NavigationMethods.driver.get("https://next.testmd.co.uk/users/sign_in");
+//		NavigationMethods.driver.get(NavigationMethods.prop.getProperty("URL"));
 	}
 	
   @Test
