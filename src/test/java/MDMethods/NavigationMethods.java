@@ -26,26 +26,15 @@ public static FileInputStream inputFile;
 public static WebDriver OpenBrowser() throws InterruptedException
 	{
 	
-	System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");                                                         // FOR UBNTU DRIVER
-    ChromeOptions chromeOptions = new ChromeOptions();
-    chromeOptions.addArguments("--no-sandbox");
-    WebDriver driver = new ChromeDriver(chromeOptions);
+//	System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");                                                         // FOR UBNTU DRIVER
+//    ChromeOptions chromeOptions = new ChromeOptions();
+//    chromeOptions.addArguments("--no-sandbox");
+//    WebDriver driver = new ChromeDriver(chromeOptions);
     
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    Thread.sleep(3000);
 	
-//    System.setProperty("webdriver.chrome.driver","C:\\chromedriver\\chromedriver.exe");                                          // FOR WINDOWS DRIVER 
-//    driver = new ChromeDriver();
-//    driver.manage().window().maximize();
+    System.setProperty("webdriver.chrome.driver","C:\\chromedriver\\chromedriver.exe");                                          // FOR WINDOWS DRIVER 
+    driver = new ChromeDriver();
+    driver.manage().window().maximize();
 	return driver;
 	}
 	

@@ -110,12 +110,13 @@ public class Md_Element  {
 	
 	
 	
-	
-	
 	public static String  qqAddPart="//input[@id='react-select-2-input']";
 	public static String  qqAddgroup="//button[@class='btn btn-primary btn-fontsmall modal-btn-open']";
 	public static String  qqSelectgroup="(//SPAN)[74]";
 	public static String qqSelectGroupDone="//BUTTON[@type='button'][text()='Done']";
+	
+	public static String qqEditContent="(//I[@class='fa fa-pencil-square-o'])[1]";
+	public static String qqEditpoup="//body[@class='cke_editable cke_editable_themed cke_contents_ltr cke_show_borders']";
 	
 
 	

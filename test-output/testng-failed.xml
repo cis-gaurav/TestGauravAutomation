@@ -3,11 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNgScripts.BasicTest">
+      <class name="TestNgScripts.QuickQuotes">
         <methods>
-          <include name="Signup"/>
+          <include name="tearDown"/>
+          <include name="VerfiyEditContent"/>
+          <include name="setUp"/>
+          <include name="getResult"/>
+          <include name="openApplication"/>
+          <include name="openBrowser"/>
         </methods>
-      </class> <!-- TestNgScripts.BasicTest -->
+      </class> <!-- TestNgScripts.QuickQuotes -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

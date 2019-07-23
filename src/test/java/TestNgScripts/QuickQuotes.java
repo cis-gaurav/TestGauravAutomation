@@ -242,7 +242,7 @@ public class QuickQuotes extends ExtentReportGenerate {
 //	}
 //
 //	@Test
-//	public void VerifyAddParticpant() throws InterruptedException{
+//	public void VerifyAddParticpant() throws InterruptedException{                                                            //Verify Adding Participant Manually 
 //		test=extent.createTest("VerifyAddParticpant");
 //		NavigationMethods.QQName();
 //		Thread.sleep(3000);
@@ -261,23 +261,30 @@ public class QuickQuotes extends ExtentReportGenerate {
 //	}
      	
      	
-     	@Test
-     	public void VerifyAddparticpantfromGroup () throws InterruptedException
-     	{
-     		NavigationMethods.QQName();
-    		Thread.sleep(3000);
-    	    NavigationMethods.BottomScroll();
-//         	Thread.sleep(5000);
-         	WebDriverWait wait = new WebDriverWait(NavigationMethods.driver, 5000);
-         	wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Md_Element.qqAddgroup)));
-         	NavigationMethods.driver.findElement(By.xpath(Md_Element.qqAddgroup)).click();
-          	NavigationMethods.driver.findElement(By.xpath(Md_Element.qqSelectgroup)).click();
-          	NavigationMethods.driver.findElement(By.xpath(Md_Element.qqSelectGroupDone)).click();
-          	Thread.sleep(5000);
-          	NavigationMethods.BottomScroll();
-           	NavigationMethods.driver.findElement(By.xpath(Md_Element.qqGetquote1)).click();
-     	}
+//     	@Test
+//     	public void VerifyAddparticpantfromGroup () throws InterruptedException                                               // Verify Adding Participant by Group 
+//     	{
+//     		NavigationMethods.QQName();
+//    		Thread.sleep(3000);
+//    	    NavigationMethods.BottomScroll();
+//        	Thread.sleep(5000);
+////         	WebDriverWait wait = new WebDriverWait(NavigationMethods.driver, 50000);
+////        	wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Md_Element.qqAddgroup)));
+//         	NavigationMethods.driver.findElement(By.xpath(Md_Element.qqAddgroup)).click();
+//          	NavigationMethods.driver.findElement(By.xpath(Md_Element.qqSelectgroup)).click();
+//          	NavigationMethods.driver.findElement(By.xpath(Md_Element.qqSelectGroupDone)).click();
+//          	Thread.sleep(5000);
+//          	NavigationMethods.BottomScroll();
+//           	NavigationMethods.driver.findElement(By.xpath(Md_Element.qqGetquote1)).click();
+//     	}
 	
+	
+	  @Test
+	  public void VerfiyEditContent() throws InterruptedException{
+		  Thread.sleep(8000);
+		 NavigationMethods.driver.findElement(By.xpath(Md_Element.qqEditContent)).click();
+		 NavigationMethods.driver.findElement(By.xpath(Md_Element.qqEditpoup)).sendKeys("Test");
+	  }
 	
 //	  @AfterMethod
 //	  public void ReturnToHome() throws InterruptedException{
