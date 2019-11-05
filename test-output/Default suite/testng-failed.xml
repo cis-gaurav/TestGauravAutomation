@@ -5,8 +5,8 @@
     <classes>
       <class name="TestNgScripts.QuickQuotes">
         <methods>
+          <include name="VerfiySummaryPage"/>
           <include name="tearDown"/>
-          <include name="VerfiyEditContent"/>
           <include name="setUp"/>
           <include name="getResult"/>
           <include name="openApplication"/>

@@ -39,6 +39,9 @@ public class Md_Element  {
 	public static String qqdisGetquote="//*[@id='app']/div/div/div/div/div/div/div/div/div/div/div/form/div[7]/button";
 	public static String qqToasterr="(//DIV[text()='The deadline you have selected in the past. Please select a deadline date in the future.'])[1]";
 	public static String qqDrop="//div[@class='filepicker dropzone dz-clickable']";
+	public static String  qqSandpit ="//A[@href='#'])[1]";
+	
+	
 	
 	public static String qqvalName1="//SPAN[@class='text-danger'][text()='Required']";
 	public static String qqvalName = "//SPAN[@class='text-danger'][text()='Name too long (can not be greater than 50 characters)']";
@@ -117,8 +120,22 @@ public class Md_Element  {
 	
 	public static String qqEditContent="(//I[@class='fa fa-pencil-square-o'])[1]";
 	public static String qqEditpoup="//body[@class='cke_editable cke_editable_themed cke_contents_ltr cke_show_borders']";
+	public static String qqSavepop= "//BUTTON[@type='button'][text()='Submit']";
+	public static String qqDeltepop="//BUTTON[@type='button'][text()='Delete']";
+	
+	public static String qqSumEventtype= "//DIV[text()='Quick Quotes']";
+	public static String qqSumDate="//SPAN[text()='May 27, 2020 12:55 IST']";
+	public static String qqSumBrief="//*[@id='collapseFour']/div/div/div/p";
 	
 
+	public static String qqSumLotname="(//SPAN[@title='Iron'][text()='Iron'][text()='Iron'])[1]";
+	public static String qqSumQunty="//*[@id='collapseOne']/div/div/table/tbody/tr/td[4]";
+	public static String qqSumMsg="//DIV[text()='No messages available']";
+	public static String qqSumPart="//DIV[@class='status-txt orange-text']";
 	
+	
+	public static String qqSumCollBrif="//A[@class='collapsed'][text()='Brief']";
+	public static String qqSumCollSum="//A[@role='button'][text()='Summary']";
+	public static String qqSumCollPart="//A[@class='collapsed'][text()='Participant List']";
 	
 }

@@ -28,7 +28,7 @@ public class ExtentReportGenerate {
 	@BeforeSuite
 	public void setUp() {
 	//prop = TestListener.getPropertiesData();
-	htmlReporter = new ExtentHtmlReporter("D:\\Extent_new\\demo.html");
+	htmlReporter = new ExtentHtmlReporter("./Reports/ExtentReport.html");
 	extent = new ExtentReports();
 	extent.attachReporter(htmlReporter);
 	extent.setSystemInfo("OS", "Window10");
