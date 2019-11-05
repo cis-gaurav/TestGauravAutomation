@@ -303,13 +303,5 @@ public static WebDriver OpenBrowser() throws InterruptedException
 	    
 }
 		
-	    
-
-
-
-
-
-
-
-
+	   
 
