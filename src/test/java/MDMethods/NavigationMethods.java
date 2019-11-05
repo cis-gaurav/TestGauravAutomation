@@ -85,7 +85,6 @@ public static WebDriver OpenBrowser() throws InterruptedException
 	
 	
 	
-
 	public static void getData()
 	{
 		
