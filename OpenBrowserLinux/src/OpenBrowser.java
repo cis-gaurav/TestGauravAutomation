@@ -26,4 +26,5 @@ public class OpenBrowser {
 		System.out.println("You are using OS: " + OS);
 		driver.close();
 	}
+	
 }
