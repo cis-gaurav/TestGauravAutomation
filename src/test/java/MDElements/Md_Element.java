@@ -39,7 +39,41 @@ public class Md_Element  {
 	public static String qqdisGetquote="//*[@id='app']/div/div/div/div/div/div/div/div/div/div/div/form/div[7]/button";
 	public static String qqToasterr="(//DIV[text()='The deadline you have selected in the past. Please select a deadline date in the future.'])[1]";
 	public static String qqDrop="//div[@class='filepicker dropzone dz-clickable']";
-	public static String  qqSandpit ="//A[@href='#'])[1]";
+	public static String qqSandpit ="//A[@href='#'])[1]";
+	public static String qqinviteClick ="(//DIV[@class='form-item-block'])[4]";
+	
+	
+//	QQ Sandpit Elements 
+	public static String qqSandtHeader = "(//A[@href='#'])[1]";
+	public static String qqSandNewquotebtn="//a[@class='btn btn-primary btn-fixed pull-right']";
+	public static String qqSandCo1part ="(//SPAN)[61]";
+	public static String qqSandCo2part ="//*[@id='app']/div/div/div/div/div/div/div/div/div/div/div/form/div[6]/div/div/div[1]/div[1]/div/div[2]/div/div[2]/label/span";
+	public static String qqSandCo3part ="//input[@value='sandpit3@marketdojo.com']";
+	public static String qqSandGetQuote= "//BUTTON[@class='btn btn-lg btn-primary m-t20 btn-sizebig'][text()='Get quotes!']";
+	public static String qqSelectPart= "//SELECT[@class='form-control']";
+	public static String qqSelectCo1="//option[@value='/users/home?in_sandpit_as_user=1341']";
+	public static String qqSanHeaderEvent="(//A[@href='/events'])[1]";
+	public static String qqInvitePartCo1 ="(//BUTTON[@type='button'])[2]";
+	public static String qqInvitePartAccept= "(//A[@rel='nofollow'][text()='Accept'][text()='Accept'])[1]";
+	public static String qqRfqTab="//*[contains(@href,'/lots')]";
+
+	public static String qqPlacebid1 = "//span[@title='Steel Scrap lot 1']/parent::div/parent::div/div[6]/form/a";
+	public static String qqPlacebid2 = "//span[@title='Steel Scrap lot 2']/parent::div/parent::div/div[6]/form/a";
+	public static String qqPlacebid3 = "//span[@title='Steel Scrap lot 3']/parent::div/parent::div/div[6]/form/a";
+	public static String qqPlacebid4 = "//span[@title='Steel Scrap lot 4']/parent::div/parent::div/div[6]/form/button";
+	public static String qqPlacebid5 = "//span[@title='Steel Scrap lot 5']/parent::div/parent::div/div[6]/form/a";
+	public static String qqRejectlot4 ="//span[@title='Steel Scrap lot 4']/parent::div/parent::div/div[6]/form/button";
+	
+	
+
+	public static String qqEnterBids1="//div[@class='tbody-all tbody-price']/div[2]/div/input";
+	public static String qqSubmitbid1 ="//button[@class='btn btn-default light-gray-color push-5-r br-green-color']";
+	public static String qqConfirmPopup= "//BUTTON[@type='button'][text()='OK']";
+
+	
+	
+	
+	
 	
 	
 	
@@ -112,7 +146,6 @@ public class Md_Element  {
 	public static String  qqQuedelete1= "//*[@id='optional_quality']/div[1]/div[3]/a/i";
 	
 	
-	
 	public static String  qqAddPart="//input[@id='react-select-2-input']";
 	public static String  qqAddgroup="//button[@class='btn btn-primary btn-fontsmall modal-btn-open']";
 	public static String  qqSelectgroup="(//SPAN)[74]";
@@ -133,9 +166,95 @@ public class Md_Element  {
 	public static String qqSumMsg="//DIV[text()='No messages available']";
 	public static String qqSumPart="//DIV[@class='status-txt orange-text']";
 	
-	
+	//QQ SUMMARY PAGE ELEMTNTS
 	public static String qqSumCollBrif="//A[@class='collapsed'][text()='Brief']";
 	public static String qqSumCollSum="//A[@role='button'][text()='Summary']";
 	public static String qqSumCollPart="//A[@class='collapsed'][text()='Participant List']";
+	public static String qqSumCollPart1="//a[text()='Participant List']";
+//	public static String qqSumColLot1bid="//td/h5[contains(text(),'Lots')]/parent::td/parent::tr/following-sibling::tr[1]/td[2]";
+	public static String qqSumColLot1bid="//A[@href='#'][text()='£ 100.00']";
+	//Delete Bid 
+	public static String qqSumColLot1bidDelete ="(//BUTTON[@type='button'])[3]";
+	public static String qqSumColLot1bidDeletePoupup="(//BUTTON[@type='button'][text()='OK'][text()='OK'])[2]";
+	public static String qqDeletebidToaster="(//DIV[text()='Bid successfully deleted'])[1]";
+	public static String qqAllowResubmission ="//BUTTON[@class='btn btn-sm btn-primary pull-left'][text()='Allow resubmission']";
 	
+	
+	//QQ Particpant End Elements MD
+	public static String qqQuestionTab ="//a[@title= 'Questionnaire']";
+	public static String qqAnswerFirst="//div[@id='1.1']/parent::div/child::div[2]/div/input";
+	public static String qqAnswerThird= "//div[@id='1.3']/parent::div/child::div[2]/div/label[1]";
+	public static String qqAnswerSecond="//div[@id='1.2']/parent::div/child::div[2]/div/div";
+	public static String qqSubmitAnswer="//a[@data-action='submit_questionnaire_answers']";
+	public static String qqConfirmPopupPart="//A[@id='confirmOk']";
+	
+                                                                //	--------------------
+                                                                      //  ELEMENTS FOR THE CD (CategoryDojo)
+                                                                //	------------
+	
+	public static String cdUname= "//input[@id='login-username']";
+	public static String cdPass="//input[@id='login-password']";
+	public static String cdLoginbtn="//button[@class='btn bg-purpel xs-full-width button-blue']";
+	public static String cdLogout= "//a[contains(.,'Logout')]";
+	public static String cdWdgtClose="//*[@id='widget-list-A']/div[1]/div[1]/aside/button[1]/i";
+	public static String cdWdgtMax="//*[contains (@class, 'widget widget-category-spend_portfolios expanded')]//*[contains (@class, 'minus')]";
+	public static String cdWdgtSetting ="//*[@id='widget-list-A']/div[1]/div[1]/aside/button[4]/i";
+	public static String cdWdgtSavebtn = "(//INPUT[@type='submit'])[1]";
+	public static String cdWdgtDropdown = "(//SELECT[@name='widget_settings[items_count]'])[1]";
+	public static String cdWdgtSelectTen = "//*[@id='widget-list-A']/div[1]/form/label/select/option[2]";
+	public static String cdSpendport="(//DIV[@class='widget-header ui-sortable-handle'])[1]";
+	
+	
+	public static String cdshowall="//a[@class='btn']";
+	public static String cdporttxt="//h2[text()='Portfolios']";
+	public static String cdeditport="//*[contains(text(),'Edit Portfolio')]";
+	
+	public static String cdevent="//a[text()='With All Details ']";
+	public static String cdCreatePortBtn="//a[@class='btn dropdown-toggle btn-primary']";
+	public static String cdNewEvent="//a[@href='/categorydojo/portfolios/new']";
+	public static String cdcat="//a[@href='/categorydojo/portfolios/227/summary']";
+	public static String cdeditcat="//span[text()='Summary']";
+	public static String cdClonedrp="//*[contains(@class,'btn dropdown-toggle btn-primary')]";
+	public static String cdClone="//a[contains(text(),'Clone Portfolio')]";
+	public static String cdlCloneselect= "//*[contains(@class,'chzn-single')]";
+	public static String cdcloneselectele="//*[contains(@id,'portfolio_id_chzn_o_2')]";
+	public static String cdclonepopbtn="//*[contains(@value,'Clone Portfolio')]";
+	public static String cdclonemsg="//*[contains(@id,'flash_notice')]";
+	public static String cdReportsummary="//*[contains(text(),'Report Summary')]";
+	public static String cdExportbtn="//*[contains(text(),'Export All')]";
+	public static String cdExportbyReprot="//*[contains(@id,'drop2')]";
+	
+	
+	public static String cdSourcingstrBtn="//a[contains(@href,'sourcing_strategy_report.pdf')]";
+	public static String cdSpendBtn="//a[contains(@href,'spend_complexity_report.pdf')]";
+	public static String cdTimeBtn="//a[contains(@href,'time_return_report.pdf')]";
+	public static String cdSavingbtn="//a[contains(@href,'savings_report.pdf')]";
+	public static String cdPowerbtn="//a[contains(@href,'power_balance_report.pdf')]";
+	public static String cdReportbtn= "//a[contains(@href,'report_summary.xlsx')]";
+	public static String CdWidgetclose= "(//I[@class='icon-remove'])[1]";
+	public static String CdgoToMDbtn="//a[@class='btn btn-primary']";
+	public static String MdDashlink ="//a[@href='/home'][text()='Dashboard']";
+	public static String MdHeaderlinkOpp= "//a[@href='/categorydojo/'][@class='menu-item-tab']";
+	
+	
+                                                                //	Element used in Create new Event in CD //
+	public static String cdPortName= "//input[@name='portfolio[name]']";                                             
+	public static String cdPortDes="//textarea[@name='portfolio[description]']";
+	public static String cdSpendOrg="//input [@name='portfolio[organisation_spend]']";
+	public static String cdsaveBtn= "//input [@name='commit']";
+	public static String cdSpendCat= "//*[contains(@name,'category[name]')]";
+	public static String cdAnnualSpend= "//*[contains(@name, 'category[annualised_spend]')]";
+	public static String cdSupplier="//*[contains (@name,'category_current_experience[possible_number_of_suppliers]')]";
+	public static String cdGlobe="//input[@name='category_supply[future_source_of_supply_asia]']";
+	public static String cdSupply="//input[@name='category_supply[desired_number_of_suppliers]']";
+	public static String cdTender="//input[@name='category_supply[time_to_prepare]']";
+	public static String cdResponse="//input[@name='category_supply[time_to_quote]']";
+	public static String cdApporvSuply="//input[@name='category_supply[time_to_approve]']";
+	public static String cdImplementSuply="//input[@name='category_supply[time_to_implement]']";
+
+	
+	
+	
+	
+
 }
