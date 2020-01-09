@@ -51,7 +51,6 @@ public class NavigationMethods {
 		return driver;
 	}
 
-	
 
 	public static boolean isWindows() {
 		return (OS.indexOf("win") >= 0);

@@ -99,7 +99,7 @@ public class QuickQuotes extends ExtentReportGenerate {
 	 NavigationMethods.driver.findElement(By.xpath(Md_Element.qqGetquote)).click();
 	 }
 	
-	
+
 	 @Test  (priority=3)                                  // Check Validation messages on QuickQuote "Name" field
 	 public void VerifymsgonEventname() throws InterruptedException
 	 {
