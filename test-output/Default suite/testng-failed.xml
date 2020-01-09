@@ -8,7 +8,7 @@
           <include name="tearDown"/>
           <include name="setUp"/>
           <include name="getResult"/>
-          <include name="VerfiyAllowResubmisson"/>
+          <include name="VerifymsgonEventname"/>
           <include name="openApplication"/>
           <include name="openBrowser"/>
         </methods>

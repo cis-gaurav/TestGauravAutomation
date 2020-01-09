@@ -2,7 +2,6 @@ package MDElements;
 import org.openqa.selenium.By;
 public class Md_Element  {
 
-	
 	                       //Elements of MD Login Page 
 	public static String headerCo="//*[@id='navbar-collapse']/ul/li[1]/a";
 	public static String headerSgnup= "//*[@id='navbar-collapse']/ul/li[1]/a";
@@ -69,7 +68,7 @@ public class Md_Element  {
 
 	public static String qqEnterBids1="//div[@class='tbody-all tbody-price']/div[2]/div/input";
 	public static String qqSubmitbid1 ="//button[@class='btn btn-default light-gray-color push-5-r br-green-color']";
-//	public static String qqConfirmPopup= "//BUTTON[@type='button'][text()='OK']";
+	public static String qqConfirmPopup= "//BUTTON[@type='button'][text()='OK']";
 
 	
 	
@@ -173,7 +172,7 @@ public class Md_Element  {
 	public static String qqSumCollPart="//A[@class='collapsed'][text()='Participant List']";
 	public static String qqSumCollPart1="//a[text()='Participant List']";
 //	public static String qqSumColLot1bid="//td/h5[contains(text(),'Lots')]/parent::td/parent::tr/following-sibling::tr[1]/td[2]";
-	//public static String qqSumColLot1bid="//A[@href='#'][text()='£ 100.00']";
+	public static String qqSumColLot1bid="//A[@href='#'][text()='£ 100.00']";
 	//Delete Bid 
 	public static String qqSumColLot1bidDelete ="(//BUTTON[@type='button'])[3]";
 	public static String qqSumColLot1bidDeletePoupup="(//BUTTON[@type='button'][text()='OK'][text()='OK'])[2]";

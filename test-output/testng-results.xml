@@ -1,40 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="54401" started-at="2020-01-09T10:14:47Z" finished-at="2020-01-09T10:15:41Z">
+  <suite name="Default suite" duration-ms="38730" started-at="2020-01-09T11:13:25Z" finished-at="2020-01-09T11:14:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="54401" started-at="2020-01-09T10:14:47Z" finished-at="2020-01-09T10:15:41Z">
+    <test name="Default test" duration-ms="38730" started-at="2020-01-09T11:13:25Z" finished-at="2020-01-09T11:14:03Z">
       <class name="TestNgScripts.QuickQuotes">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:TestNgScripts.QuickQuotes@464bee09]" name="setUp" is-config="true" duration-ms="128" started-at="2020-01-09T10:14:47Z" finished-at="2020-01-09T10:14:47Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestNgScripts.QuickQuotes@3abbfa04]" name="setUp" is-config="true" duration-ms="138" started-at="2020-01-09T11:13:24Z" finished-at="2020-01-09T11:13:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:TestNgScripts.QuickQuotes@464bee09]" name="openBrowser" is-config="true" duration-ms="3691" started-at="2020-01-09T10:14:47Z" finished-at="2020-01-09T10:14:50Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:TestNgScripts.QuickQuotes@3abbfa04]" name="openBrowser" is-config="true" duration-ms="3585" started-at="2020-01-09T11:13:25Z" finished-at="2020-01-09T11:13:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="openApplication()[pri:0, instance:TestNgScripts.QuickQuotes@464bee09]" name="openApplication" is-config="true" duration-ms="17239" started-at="2020-01-09T10:14:50Z" finished-at="2020-01-09T10:15:08Z">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:TestNgScripts.QuickQuotes@3abbfa04]" name="openApplication" is-config="true" duration-ms="9118" started-at="2020-01-09T11:13:28Z" finished-at="2020-01-09T11:13:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method status="PASS" signature="VerfiySimpleQuote()[pri:1, instance:TestNgScripts.QuickQuotes@464bee09]" name="VerfiySimpleQuote" duration-ms="33439" started-at="2020-01-09T10:15:08Z" finished-at="2020-01-09T10:15:41Z">
+        <test-method status="PASS" signature="QQByName()[pri:2, instance:TestNgScripts.QuickQuotes@3abbfa04]" name="QQByName" duration-ms="394" started-at="2020-01-09T11:13:37Z" finished-at="2020-01-09T11:13:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerfiySimpleQuote -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestNgScripts.QuickQuotes@464bee09]" name="getResult" is-config="true" duration-ms="13" started-at="2020-01-09T10:15:41Z" finished-at="2020-01-09T10:15:41Z">
+        </test-method> <!-- QQByName -->
+        <test-method status="PASS" signature="ReturnToHome()[pri:0, instance:TestNgScripts.QuickQuotes@3abbfa04]" name="ReturnToHome" is-config="true" duration-ms="7217" started-at="2020-01-09T11:13:38Z" finished-at="2020-01-09T11:13:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReturnToHome -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestNgScripts.QuickQuotes@3abbfa04]" name="getResult" is-config="true" duration-ms="7" started-at="2020-01-09T11:13:45Z" finished-at="2020-01-09T11:13:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerfiySimpleQuote status=SUCCESS method=QuickQuotes.VerfiySimpleQuote()[pri:1, instance:TestNgScripts.QuickQuotes@464bee09] output={null}]]]>
+                <![CDATA[[TestResult name=QQByName status=SUCCESS method=QuickQuotes.QQByName()[pri:2, instance:TestNgScripts.QuickQuotes@3abbfa04] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestNgScripts.QuickQuotes@464bee09]" name="tearDown" is-config="true" duration-ms="285" started-at="2020-01-09T10:15:41Z" finished-at="2020-01-09T10:15:41Z">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:TestNgScripts.QuickQuotes@3abbfa04]" name="openApplication" is-config="true" duration-ms="5403" started-at="2020-01-09T11:13:45Z" finished-at="2020-01-09T11:13:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="VerifymsgonEventname()[pri:3, instance:TestNgScripts.QuickQuotes@3abbfa04]" name="VerifymsgonEventname" duration-ms="6518" started-at="2020-01-09T11:13:50Z" finished-at="2020-01-09T11:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifymsgonEventname -->
+        <test-method status="PASS" signature="ReturnToHome()[pri:0, instance:TestNgScripts.QuickQuotes@3abbfa04]" name="ReturnToHome" is-config="true" duration-ms="4385" started-at="2020-01-09T11:13:57Z" finished-at="2020-01-09T11:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReturnToHome -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestNgScripts.QuickQuotes@3abbfa04]" name="getResult" is-config="true" duration-ms="0" started-at="2020-01-09T11:14:01Z" finished-at="2020-01-09T11:14:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifymsgonEventname status=SUCCESS method=QuickQuotes.VerifymsgonEventname()[pri:3, instance:TestNgScripts.QuickQuotes@3abbfa04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:TestNgScripts.QuickQuotes@3abbfa04]" name="CloseBrowser" is-config="true" duration-ms="2081" started-at="2020-01-09T11:14:01Z" finished-at="2020-01-09T11:14:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestNgScripts.QuickQuotes@3abbfa04]" name="tearDown" is-config="true" duration-ms="236" started-at="2020-01-09T11:14:03Z" finished-at="2020-01-09T11:14:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

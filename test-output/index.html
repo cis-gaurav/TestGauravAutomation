@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\cis1\AppData\Local\Temp\testng-eclipse-8827182\testng-customsuite.xml</span>
+                    <span>C:\Users\cis1\AppData\Local\Temp\testng-eclipse--1017161109\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNgScripts.QuickQuotes" hash-for-method="VerfiySimpleQuote">VerfiySimpleQuote</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNgScripts.QuickQuotes" hash-for-method="QQByName">QQByName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNgScripts.QuickQuotes" hash-for-method="VerifymsgonEventname">VerifymsgonEventname</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -125,9 +130,16 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="VerfiySimpleQuote">
-                  </a> <!-- VerfiySimpleQuote -->
-                  <span class="method-name">VerfiySimpleQuote</span>
+                  <a name="QQByName">
+                  </a> <!-- QQByName -->
+                  <span class="method-name">QQByName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifymsgonEventname">
+                  </a> <!-- VerifymsgonEventname -->
+                  <span class="method-name">VerifymsgonEventname</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +147,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\cis1\AppData\Local\Temp\testng-eclipse-8827182\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\cis1\AppData\Local\Temp\testng-eclipse--1017161109\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -184,16 +196,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'VerfiySimpleQuote')
+data.setCell(0, 1, 'VerifymsgonEventname')
 data.setCell(0, 2, 'TestNgScripts.QuickQuotes')
-data.setCell(0, 3, 33439);
+data.setCell(0, 3, 6518);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'QQByName')
+data.setCell(1, 2, 'TestNgScripts.QuickQuotes')
+data.setCell(1, 3, 394);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 33 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -226,23 +242,47 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">openBrowser</span>
-                <span class="method-start">136 ms</span>
+                <span class="method-start">144 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">openApplication</span>
-                <span class="method-start">3835 ms</span>
+                <span class="method-start">3741 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">VerfiySimpleQuote</span>
-                <span class="method-start">21074 ms</span>
+                <span class="method-name">QQByName</span>
+                <span class="method-start">12859 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">getResult([TestResult name=VerfiySimpleQuote status=SUCCESS method=QuickQuotes.VerfiySimpleQuote()[pri:1, inst...)</span>
-                <span class="method-start">54515 ms</span>
+                <span class="method-name">ReturnToHome</span>
+                <span class="method-start">13255 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=QQByName status=SUCCESS method=QuickQuotes.QQByName()[pri:2, instance:TestNgScripts...)</span>
+                <span class="method-start">20472 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openApplication</span>
+                <span class="method-start">20480 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifymsgonEventname</span>
+                <span class="method-start">25883 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ReturnToHome</span>
+                <span class="method-start">32402 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=VerifymsgonEventname status=SUCCESS method=QuickQuotes.VerifymsgonEventname()[pri:3...)</span>
+                <span class="method-start">36787 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">36787 ms</span>
+              </div> <!-- configuration-class after -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">54560 ms</span>
+                <span class="method-start">38931 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
