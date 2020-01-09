@@ -13,7 +13,6 @@ public class OpenBrowser {
 		return (OS.indexOf("nix") >= 0 || OS.indexOf("nux") >= 0 || OS.indexOf("aix") > 0);
 	}
 	
-	
 	public static void main(String[] args) {
 		if (isWindows()) {
 			System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
