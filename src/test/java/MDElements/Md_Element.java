@@ -69,7 +69,7 @@ public class Md_Element  {
 
 	public static String qqEnterBids1="//div[@class='tbody-all tbody-price']/div[2]/div/input";
 	public static String qqSubmitbid1 ="//button[@class='btn btn-default light-gray-color push-5-r br-green-color']";
-	public static String qqConfirmPopup= "//BUTTON[@type='button'][text()='OK']";
+//	public static String qqConfirmPopup= "//BUTTON[@type='button'][text()='OK']";
 
 	
 	
