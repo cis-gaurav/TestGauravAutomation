@@ -14,7 +14,6 @@ public class OpenBrowser {
 	}
 	
 	
-	
 	public static void main(String[] args) {
 		if (isWindows()) {
 			System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
