@@ -74,6 +74,12 @@
 		<pluginManagement>
 			<plugins>
 				<plugin>
+					<artifactId>maven-failsafe-plugin</artifactId>
+					<configuration>
+						<useSystemClassLoader>false</useSystemClassLoader>
+					</configuration>
+				</plugin>
+				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>3.8.0</version>
@@ -81,6 +87,7 @@
 						<source>1.8</source>
 						<target>1.8</target>
 						<encoding>UTF-8</encoding>
+						<useSystemClassLoader>false</useSystemClassLoader>
 					</configuration>
 				</plugin>
 				<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
@@ -92,6 +99,7 @@
 					<configuration>
 						<suiteXml>testng.xml</suiteXml>
 						<encoding>UTF-8</encoding>
+						<useSystemClassLoader>false</useSystemClassLoader>
 					</configuration>
 				</plugin>
 			</plugins>
