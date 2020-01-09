@@ -91,9 +91,9 @@
 					<inherited>true</inherited>
 					<configuration>
 						<suiteXml>testng.xml</suiteXml>
+						<encoding>UTF-8</encoding>
 					</configuration>
 				</plugin>
-
 			</plugins>
 		</pluginManagement>
 	</build>
