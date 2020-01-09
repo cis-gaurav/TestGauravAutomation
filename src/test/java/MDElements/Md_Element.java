@@ -173,7 +173,7 @@ public class Md_Element  {
 	public static String qqSumCollPart="//A[@class='collapsed'][text()='Participant List']";
 	public static String qqSumCollPart1="//a[text()='Participant List']";
 //	public static String qqSumColLot1bid="//td/h5[contains(text(),'Lots')]/parent::td/parent::tr/following-sibling::tr[1]/td[2]";
-	public static String qqSumColLot1bid="//A[@href='#'][text()='£ 100.00']";
+	//public static String qqSumColLot1bid="//A[@href='#'][text()='£ 100.00']";
 	//Delete Bid 
 	public static String qqSumColLot1bidDelete ="(//BUTTON[@type='button'])[3]";
 	public static String qqSumColLot1bidDeletePoupup="(//BUTTON[@type='button'][text()='OK'][text()='OK'])[2]";
